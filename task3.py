@@ -5,4 +5,11 @@
 # Пример:
 # 2013
 # MMXIII
-
+def number_to_rome(a):
+    rofl = ["I", "V", "X", "L", "C", "D", "M"]
+    if (a // 10) > 99:
+        n = a // 1000
+        print(rofl[6]*n)
+    if
+a = int(input())
+number_to_rome(a)
