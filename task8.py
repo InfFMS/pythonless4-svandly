@@ -6,4 +6,16 @@
 # 378
 # Вывод:
 # 2*3*3*3*7
-
+def delenie(num):
+    a = 2
+    n = 1
+    l = 1
+    while a < num:
+        if a % n == 0:
+            l += 1
+            if l < 2:
+                print (a)
+                break
+                a += 1
+num = int(input())
+delenie(num)
